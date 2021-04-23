@@ -17,10 +17,11 @@
 }
 ```
 6. Criar dois arquivos:
-   3.1. index.html
-   3.2. index.js
+    index.html
+    index.js
 
 6.1. index.html
+```
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -34,8 +35,10 @@
     <script src="index.js"></script>   
 </body>
 </html>
+```
 
 6.2. index.js
+```
 fetch('https://my-json-server.typicode.com/Jefferson1202/api/disciplinas')
   .then(response => response.json())
   .then(json => {
@@ -43,5 +46,6 @@ fetch('https://my-json-server.typicode.com/Jefferson1202/api/disciplinas')
     div.innerText = JSON.stringify(json)
     //div.innerText = JSON.stringify(json.title)
   })
+ ```
 
 7. Salvar e rodar a partir do index.html
