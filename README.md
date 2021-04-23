@@ -1,9 +1,9 @@
-# api
+# Passo a Passo 
 1. Criar uma pasta: segundo-fetch
 2. Abrir esta pasta no visual studio code
 3. Acessar o site:  https://jsonplaceholder.typicode.com/
 4. Clicar no link:  My JSON Server
-5. Criar um repositório no github: <your-username>/<your-repo>
+5. Criar um repositório no github: 
             
 7. Neste novo repositório criar um arquivo: db.json
 ```
@@ -17,7 +17,7 @@
 }
 ```
 6. Criar dois arquivos: <br />
-  6.1. index.html
+  6.1. index.html <br />
   6.2.  index.js
 
 7. index.html
