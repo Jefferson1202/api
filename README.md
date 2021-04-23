@@ -6,6 +6,7 @@
 5. Criar um repositório no github: <your-username>/<your-repo>
                    Exemplo: profatila/api
 7. Neste novo repositório criar um arquivo: db.json
+```
 {
   "disciplinas": [
     { "id": 1, "titulo": "Programação Web Front-end", "codigo": "PWFE" },
@@ -14,7 +15,7 @@
     { "id": 4, "titulo": "Interfaces para Dispositivos Móveis", "codigo": "INDMO" }
   ]
 }
-
+```
 6. Criar dois arquivos:
    3.1. index.html
    3.2. index.js
@@ -35,7 +36,7 @@
 </html>
 
 6.2. index.js
-fetch('https://my-json-server.typicode.com/profatila/api/disciplinas')
+fetch('https://my-json-server.typicode.com/Jefferson1202/api/disciplinas')
   .then(response => response.json())
   .then(json => {
     const div = document.getElementById("conteudo");
