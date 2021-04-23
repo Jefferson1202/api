@@ -2,9 +2,9 @@
 1. Criar uma pasta: segundo-fetch
 2. Abrir esta pasta no visual studio code
 3. Acessar o site:  https://jsonplaceholder.typicode.com/
-4. Clicar no link: My JSON Server
+4. Clicar no link:  My JSON Server
 5. Criar um repositório no github: <your-username>/<your-repo>
-                   Exemplo: profatila/api
+            
 7. Neste novo repositório criar um arquivo: db.json
 ```
 {
@@ -17,10 +17,10 @@
 }
 ```
 6. Criar dois arquivos:
-    index.html
-    index.js
+  6.1. index.html
+  6.2.  index.js
 
-6.1. index.html
+7. index.html
 ```
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -37,7 +37,7 @@
 </html>
 ```
 
-6.2. index.js
+7.1. index.js
 ```
 fetch('https://my-json-server.typicode.com/Jefferson1202/api/disciplinas')
   .then(response => response.json())
@@ -48,4 +48,4 @@ fetch('https://my-json-server.typicode.com/Jefferson1202/api/disciplinas')
   })
  ```
 
-7. Salvar e rodar a partir do index.html
+6. Salvar e rodar a partir do index.html
