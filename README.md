@@ -16,7 +16,7 @@
   ]
 }
 ```
-6. Criar dois arquivos:
+6. Criar dois arquivos: <br />
   6.1. index.html
   6.2.  index.js
 
